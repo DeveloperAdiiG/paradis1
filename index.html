@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <title>EventParadise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <p>EventParadise</p>
+            <div class="heading1">
+                <a href="index.html"><button>Home</button></a>
+                <a href="tel:+919529396512" target="blank"><button>Call Us</button></a>
+                <a href="mailto:avdhutgurav1065@gmail.com" target="blank"><button>Mail Us</button></a>
+                <a href="https://instagram.com/_event_paradise_?igshid=MzRlODBiNWFlZA==" target="blank"><button>Instagram</button></a>
+                <a href="https://api.whatsapp.com/send?phone=+919011341065" target="blank"><button>Whatsapp</button></a>
+            </div>
+        </div>
+        <form class="form" onsubmit="sendEmail(); reset(); return false;">
+            <h1>Contact Us</h1>
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="mail" placeholder="mail">
+            <input type="text" id="phone" placeholder="Phone No.">
+            <textarea id="message" rows="5" placeholder="How can we help you ?"></textarea>
+            <select name="myOptions" id="Option">
+                <option value="ind">Option 1</option>
+                <option value="swf">Option 2</option>
+                <option value="wag">Option 3</option>
+                <option value="800">Option 4</option>
+                <option value="ert">Option 5</option>
+                <option value="Bal">Option 6</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>  
+    </div>
+    <footer class="footer">
+        <H1>AVDHUT   GURAV</H1>
+        <p>OWNER</p>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script href="smtp.js"></script>
+</body>
+</html>
