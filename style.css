@@ -83,3 +83,76 @@
     margin: 10px 10px 10px;
     border-radius: 7px;
 }
+@media screen and (max-width:500px) {
+    .heading p{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 12px 12px 12px;
+    }
+    .heading1 button{
+        padding: 6px 6px 6px;
+        border-radius: 6px;
+        align-items: center;
+        background-color: #9693d386;
+        font-size: 10px;
+        margin: 2px 2px 2px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        margin: 100px auto auto;
+        align-items: center;
+        height: auto;
+        text-align: center;
+        background-color: #ffffff86;
+        background-position: center;
+        padding: 50px auto 10px;
+        border-radius: 10px;
+        font-size: 7px;
+    }
+    .form input{
+        color: rgb(0, 0, 0);
+        padding: 7px 7px 7px;
+        margin: 7px 7px 7px;
+        border-radius: 7px;
+        font-size: 10px;
+    }
+    .form textarea{
+        color: rgb(0, 0, 0);
+        padding: 7px 7px 7px;
+        margin: 7px 7px 7px;
+        border-radius: 7px;
+        font-size: 10px;
+    }
+    .form button{
+        color: rgb(0, 0, 0);
+        padding: 7px 7px 7px;
+        margin: 7px 7px 7px;
+        border-radius: 7px;
+        background-color: #9693d386;
+        font-size: 10px;
+    }
+    .form select{
+        color: rgb(0, 0, 0);    
+        padding: 7px 7px 7px;
+        margin: 7px 7px 7px;
+        border-radius: 7px;
+        font-size: 8px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer H1{
+        color: black;
+        padding: 8px 8px 8px;
+        font-size: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer p{
+        color: grey;
+        font-size: 9px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 17px;
+    }
+}
