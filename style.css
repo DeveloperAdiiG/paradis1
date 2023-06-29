@@ -83,7 +83,8 @@
     margin: 10px 10px 10px;
     border-radius: 7px;
 }
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:800px) {
     .heading p{
         font-size: 25px;
         font-family: 'Times New Roman', Times, serif;
