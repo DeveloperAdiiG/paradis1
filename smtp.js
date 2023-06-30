@@ -1,10 +1,10 @@
 function sendEmail(){
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "adii.dg.2021@gmail.com",
-        Password : "80BAB4FD9D4904446AEAA2AD29CE90637338",
-        To : 'avdhutgurav1065@gmail.com',
-        From : 'adii.dg.2021@gmail.com',
+        Username : "adityagurav54@gmail.com",
+        Password : "04BD95B5065355D3B03934DFB51A9EF28A43",
+        To : 'adii.dg.2021@gmail.com',
+        From : "adityagurav54@gmail.com",
         Subject : "New Enquiry from : "+document.getElementById("mail").value,
         Body : "Name : "+document.getElementById("name").value
                 +"<br> Email : "+document.getElementById("mail").value
